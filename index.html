@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Travels &mdash; Viagens e turismo</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <ion-icon class="icon" name="location-outline"></ion-icon>
+        <p class="logo">Logo</p>
+        <ion-icon class="icon search-icon" name="search-outline"></ion-icon>
+      </nav>
+
+      <button class="btn-mobile-nav hidden">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero-container">
+          <ul class="list">
+            <div class="first-item">
+              <li class="list-item">
+                <ion-icon name="airplane-outline"></ion-icon>
+                <span>Flight</span>
+              </li>
+            </div>
+
+            <li class="list-item">
+              <ion-icon name="bed-outline"></ion-icon>
+              <span>Hotel</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="car-sport-outline"></ion-icon>
+              <span>Rental</span>
+            </li>
+          </ul>
+          <h1>Travel the world with us</h1>
+          <form class="cta-form">
+            <div>
+              <label>From</label>
+              <input type="text" placeholder="Departing from" />
+            </div>
+            <div>
+              <label>To</label>
+              <input type="text" placeholder="Arriving at" />
+            </div>
+            <button type="button" class="btn">Search and find dates</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-offers">
+        <div class="container">
+          <h2 class="secondary-title">Good Offers Right Now</h2>
+          <p class="subtitle">Up to <strong>50%</strong> discount</p>
+          <div class="gallery">
+            <figure class="gallery-item first-img">
+              <img src="img/cinqueterre.jpg" alt="Photo of Cinque Terre" />
+              <figcaption>Cinque Terre</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="img/newyork.jpg" alt="Photo of New York" />
+              <figcaption>New York</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="img/sanfran.jpg" alt="Photo of San Francisco" />
+              <figcaption>San Francisco</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="img/pisa.jpg" alt="Photo of Pisa" />
+              <figcaption>Pisa</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="img/paris.jpg" alt="Photo of Paris" />
+              <figcaption>Paris</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-nature container">
+        <h2 class="secondary-title">Exprore Nature</h2>
+        <p class="subtitle">Travel with us and see nature at its finest</p>
+        <div class="nature">
+          <figure class="nature-item">
+            <img src="img/ocean.jpg" alt="Photo of Norway coast" />
+            <div class="nature-text">
+              <h3 class="tertiary-title">West Cost, Norway</h3>
+              <span class="price">Roundtrip from $79</span>
+              <p class="subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a class="nature-link" href="#">Buy Tickets</a>
+            </div>
+          </figure>
+          <figure class="nature-item">
+            <img src="img/mountains.jpg" alt="Photo of Austria montains" />
+            <div class="nature-text">
+              <h3 class="tertiary-title">Montains, Austria</h3>
+              <span class="price">One-way from $39</span>
+              <p class="subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a class="nature-link" href="#">Buy Tickets</a>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="newsletter container">
+        <h2 class="secondary-title-news">Get the best offers fisrt!</h2>
+        <p class="subtitle-news">Join our newsletter</p>
+        <form class="form">
+          <label>E-mail</label>
+          <input type="email" placeholder="Your email address" />
+          <button type="submit" class="submit">Substribe</button>
+        </form>
+      </section>
+
+      <section class="contact container">
+        <h2 class="secondary-title-contact">Contact</h2>
+        <p class="subtitle-contact">Let us book your next trip!</p>
+        <address class="address">
+          <p class="adress-link">
+            <ion-icon class="icon-contact" name="location-outline"></ion-icon
+            >Chicago, US
+          </p>
+          <p class="adrress-link">
+            <ion-icon class="icon-contact" name="call-outline"></ion-icon>
+            <a class="adrress-link" href="tel:415-201-6370">415-201-6370</a
+            ><br />
+            <ion-icon class="icon-contact" name="mail-outline"></ion-icon>
+            <a class="adrress-link" href="mailto:mail@mail.com"
+              >Email: mail@mail.com</a
+            >
+          </p>
+        </address>
+        <form class="form-contact">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Message" />
+        </form>
+        <button class="btn-contact" type="submit">send message</button>
+      </section>
+    </main>
+    <footer class="container">
+      <h3 class="tertiary-title">Find Us On</h3>
+      <div class="social">
+        <a href="#"
+          ><ion-icon class="social" name="logo-facebook"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="social" name="logo-instagram"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="social" name="logo-snapchat"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="social" name="logo-pinterest"></ion-icon
+        ></a>
+        <a href="#"><ion-icon class="social" name="logo-twitter"></ion-icon></a>
+        <a href="#"
+          ><ion-icon class="social" name="logo-linkedin"></ion-icon
+        ></a>
+      </div>
+      <p class="powered">Powered by <a href="#">w3css</a></p>
+    </footer>
+  </body>
+</html>
